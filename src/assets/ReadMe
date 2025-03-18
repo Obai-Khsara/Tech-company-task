@@ -1,1 +1,6 @@
 All you need to use this code is install the code and install node_modules then run it.
+
+Using the app:
+In course List section you can see the courses available and each course have button to delete the selected course by using the id which it uniqe and also it present to user notification to avoid delete randomly.
+In Add course section you can add course after you fill al the fileds and automatically present the new course you add in course list section.
+In search section you can enter the key you want to search based on and when you click the search button it present for you the result of search and it hide the course list section and add course section , when you click the back button it will remove the search results and represent the hide sections. 

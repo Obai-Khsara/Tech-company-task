@@ -6,7 +6,7 @@ const Courses = ({courseList, setCourseList , showResult}) => {
     // This function aim to delete specific course from the list based on the id
     function deleteCourse(id, courseTitle){
 
-        // to avoid the deleted random
+        // to avoid the deleted randomly
         const check = confirm(`Are you sure that you want to delete ${courseTitle}`)
         const newCourseList = courseList.filter((course)=>{
             if(course.id != id)
